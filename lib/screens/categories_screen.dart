@@ -10,7 +10,7 @@ class CategoriesScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: Colors.blue,
+        //backgroundColor: Color,
         elevation: 5,
         title: const Text(
           'Vamos Cozinhar?',
@@ -27,7 +27,7 @@ class CategoriesScreen extends StatelessWidget {
           crossAxisSpacing: 20,
           mainAxisSpacing: 20,
         ),
-        children: DUMMY_CATEGORIES.map((cat) {
+        children: dummyCategories.map((cat) {
           return CategoryItem(
             category: cat,
           );
